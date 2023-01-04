@@ -1,1 +1,1 @@
-pyinstaller --onefile -y ApplyColorMask.py
+pyinstaller --onefile --icon=Icon.ico -y ApplyColorMask.py
