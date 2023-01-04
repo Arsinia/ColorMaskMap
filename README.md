@@ -8,6 +8,12 @@ Here's a quick demo of what it can do. We start with the diffuse image, the colo
 
 All the end user has to do is change the colors file (just 3 pixels) and they can change what colors get applied
 
+It looks a but underwhelming when applied to a plain image, but can be very powerful when used for coloring model textures
+</details><details>
+  <summary>Example used on character textures</summary>
+  <img src="https://github.com/Arsinia/ColorMaskMap/blob/main/PicturesForREADME/ColorableJean.png?raw=true">
+</details>
+
 # How do I use it?
 #### I installed a mod that uses this
 If you downloaded a mod that uses this, all you need to do is change the colors of the selected colors file(s) and run the ApplyColorMask.exe or ApplyColorMask.py. The three colors will determine what color gets applied to the image. If you look at the CMM file, the first color will be applied to the red section, second to green, and third to blue. If you set the color to pure white (255,255,255) the color will not be applied to that section. This means if you want the section to be white, it needs to be slightly off-white. 
