@@ -1,0 +1,3 @@
+; Format: diffuse output color_mask1 selected_colors1 color_mask2 selected_colors2 ...
+Diffuse.dds OutDiffuse1.dds CMM1.png Colors1.png
+Diffuse.dds OutDiffuse2.dds CMM1.png Colors1.png CMM2.png Colors2.png
