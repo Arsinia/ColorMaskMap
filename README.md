@@ -32,3 +32,19 @@ It's also important to note that this code uses BC7 SRGB dds files with mip maps
 #### I don't want to run it as an EXE
 EXE files can be a huge security risk if you don't trust where they came from. If you want to use this without an EXE, you can just run the Python file instead. Mods using this should provide the Python file for anyone who doesn't want to use EXEs. To run the Python file, you will need to install Python and the packages Numpy and ImageIO. Then you should be able to run it just like the EXE. You can also build the EXE yourself using Pyinstaller and running the build.bat file.
 
+# How does it work?
+
+The program basically just reads in the image as an array and does the following on it for each area based on the CMM:
+
+-Calculates the intensity (average of RGB) of the masked area and the intensity of the selected color
+
+-Desaturates the area so the average intensity afterwards would be the same as the intensity of the selected color
+
+-Multiply the image by the selected color in the masked area
+
+-Use texconv to write it as a BC7_UNORM_SRGB DDS file
+
+# Other stuff
+Feel free to use this project for whatever you want with or without credit. This was like 90% made from just forcing the ChatGPT to code it for me. 
+
+Special thansk to the [Anime Game Modding Group Discord](https://discord.gg/gR2Ts6ApP7) for helping me mod a certain game!
