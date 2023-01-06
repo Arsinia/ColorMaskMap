@@ -47,4 +47,4 @@ The program basically just reads in the image as an array and does the following
 # Other stuff
 Feel free to use this project for whatever you want with or without credit. This was like 90% made from just forcing the ChatGPT to code it for me. 
 
-Special thansk to the [Anime Game Modding Group Discord](https://discord.gg/gR2Ts6ApP7) for helping me mod a certain game!
+Special thanks to the [Anime Game Modding Group Discord](https://discord.gg/gR2Ts6ApP7) for helping me mod a certain game!
