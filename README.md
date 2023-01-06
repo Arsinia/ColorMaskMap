@@ -9,10 +9,7 @@ Here's a quick demo of what it can do. We start with the diffuse image, the colo
 All the end user has to do is change the colors file (just 3 pixels) and they can change what colors get applied
 
 It looks a but underwhelming when applied to a plain image, but can be very powerful when used for coloring model textures
-</details><details>
-  <summary>Example used on character textures</summary>
-  <img src="https://github.com/Arsinia/ColorMaskMap/blob/main/PicturesForREADME/ColorableJean.png?raw=true">
-</details>
+![alt text](https://github.com/Arsinia/ColorMaskMap/blob/main/PicturesForREADME/ColorableJean.png?raw=true)
 
 # How do I use it?
 #### I installed a mod that uses this
